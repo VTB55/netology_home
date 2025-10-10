@@ -21,7 +21,6 @@
 Прерываемая: Да
 
 Проверка установки Docker:
-admin@vm-netology:~$ docker --version
 Docker version 27.5.1, build 27.5.1-0ubuntu3~22.04.2
 
 -----
