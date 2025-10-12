@@ -44,7 +44,10 @@ Stderr: VBoxManage: error: AMD-V VT-X is not available (VERR_SVM_NO_SVM)
 Если ваша рабочая станция в меру различных факторов не может запустить вложенную виртуализацию - допускается неполное выполнение(до ошибки запуска ВМ)
 
 Решение: 
-Возникла проблема со вложенной виртуализацией. 
+PS C:\vagrant-test> vagrant status
+Current machine states:
+
+default                   running (virtualbox)
 
 Задача 3
 Отредактируйте файл mydebian.json.pkr.hcl или mydebian.jsonl в директории src (packer умеет и в json, и в hcl форматы):
