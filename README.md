@@ -20,3 +20,20 @@ https://hub.docker.com/repository/docker/konovalovs/custom-nginx/general
 <img width="1165" height="1277" alt="image" src="https://github.com/user-attachments/assets/fe0f8045-0977-473b-b74e-b5fbb6d2d8cb" />
 <img width="1168" height="1280" alt="image" src="https://github.com/user-attachments/assets/a5736a12-fe46-4900-aee0-4f88bc403a8f" />
 
+Задача 5:
+
+Создайте отдельную директорию(например /tmp/netology/docker/task5) и 2 файла внутри него. "compose.yaml" с содержимым:
+
+<img width="978" height="128" alt="image" src="https://github.com/user-attachments/assets/67472a7c-cbd8-4e03-9799-069c9795366e" />
+
+И выполните команду "docker compose up -d". Какой из файлов был запущен и почему?
+
+<img width="979" height="271" alt="image" src="https://github.com/user-attachments/assets/8b12c3f6-3e5b-4912-be68-889218c259f0" />
+
+После выполнения команды docker-compose up -d в директории /tmp/netology/docker/task5 был запущен файл docker-compose.yaml.
+Почему: В системе на данный момент используется старый Docker с отдельным бинарником docker-compose (и применяется через дефис), который ищет файлы в следующем порядке приоритета: 
+docker-compose.yml, docker-compose.yaml, compose.yml, compose.yaml
+
+Отредактируйте файл compose.yaml так, чтобы были запущенны оба файла:
+
+
