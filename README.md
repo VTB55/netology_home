@@ -22,7 +22,7 @@ https://hub.docker.com/repository/docker/konovalovs/custom-nginx/general
 
 Задача 5:
 
-Создайте отдельную директорию(например /tmp/netology/docker/task5) и 2 файла внутри него. "compose.yaml" с содержимым:
+Создайте отдельную директорию(например /tmp/netology/docker/task5) и 2 файла внутри него. 
 
 <img width="978" height="128" alt="image" src="https://github.com/user-attachments/assets/67472a7c-cbd8-4e03-9799-069c9795366e" />
 
@@ -35,5 +35,36 @@ https://hub.docker.com/repository/docker/konovalovs/custom-nginx/general
 docker-compose.yml, docker-compose.yaml, compose.yml, compose.yaml
 
 Отредактируйте файл compose.yaml так, чтобы были запущенны оба файла:
+
+<img width="972" height="546" alt="image" src="https://github.com/user-attachments/assets/7cf02a35-c2d3-4c8e-9aae-87a1d9dc732f" />
+
+Выполните в консоли вашей хостовой ОС необходимые команды чтобы залить образ custom-nginx как custom-nginx:latest в запущенное вами, локальное registry
+
+<img width="975" height="443" alt="image" src="https://github.com/user-attachments/assets/c3312412-d5da-426a-815c-b44d71cd5ede" />
+
+Откройте страницу "https://127.0.0.1:9000" и произведите начальную настройку portainer.
+
+<img width="776" height="831" alt="image" src="https://github.com/user-attachments/assets/11149baf-e41c-401d-825b-5971958ad143" />
+
+Откройте страницу "http://127.0.0.1:9000/#!/home", выберите ваше local окружение. Перейдите на вкладку "stacks" и в "web editor" задеплойте следующий компоуз:
+
+version: '3'
+services:
+  nginx:
+    image: 127.0.0.1:5000/custom-nginx
+    ports:
+      - "9090:80"
+<img width="1928" height="1006" alt="image" src="https://github.com/user-attachments/assets/0cf29409-e649-4ffa-bab0-cf6ddc0e0f2d" />
+
+Перейдите на страницу "http://127.0.0.1:9000/#!/2/docker/containers", выберите контейнер с nginx и нажмите на кнопку "inspect". В представлении <> Tree разверните поле "Config" и сделайте скриншот от поля "AppArmorProfile" до "Driver"
+
+<img width="1568" height="1109" alt="image" src="https://github.com/user-attachments/assets/1c40282b-769a-425a-a6f1-fee55de697f3" />
+
+Удалите любой из манифестов компоуза(например compose.yaml). Выполните команду "docker compose up -d". Прочитайте warning, объясните суть предупреждения и выполните предложенное действие. Погасите compose-проект ОДНОЙ(обязательно!!) командой.
+
+<img width="969" height="219" alt="image" src="https://github.com/user-attachments/assets/1fc9684f-2b82-4b2a-b5e9-1d4d8120096f" />
+
+Домашнее задание закончено. 
+Спасибо за проверку!
 
 
