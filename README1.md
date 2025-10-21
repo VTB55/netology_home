@@ -13,4 +13,5 @@
 
 # Задание  6:
 <img width="1290" height="407" alt="image" src="https://github.com/user-attachments/assets/bde41bc6-cf6e-4bd2-9d14-eda64cebd60d" />
-
+При выполнении задания возникли проблемы с Dive. 
+Несмотря на проблемы с dive, основная цель достигнута - бинарник Terraform скопирован с использованием Docker и проверен на работоспособность.
