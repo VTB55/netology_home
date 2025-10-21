@@ -11,4 +11,6 @@
 <img width="1011" height="1191" alt="image" src="https://github.com/user-attachments/assets/69a5aad9-eeeb-4501-ae52-83b8e1fdbc00" />
 <img width="1032" height="880" alt="image" src="https://github.com/user-attachments/assets/7ba87ddd-072d-4017-a7ee-05a15d79be71" />
 
+# Задание  6:
+<img width="1290" height="407" alt="image" src="https://github.com/user-attachments/assets/bde41bc6-cf6e-4bd2-9d14-eda64cebd60d" />
 
