@@ -3,3 +3,7 @@
 
 # Задание 2:
 <img width="1551" height="910" alt="image" src="https://github.com/user-attachments/assets/b1c74b12-60cf-4756-8180-0c5dc6f616fb" />
+
+# Задание 3:
+<img width="669" height="500" alt="image" src="https://github.com/user-attachments/assets/775562fb-cea6-4faa-b9a7-632e9701aa25" />
+
