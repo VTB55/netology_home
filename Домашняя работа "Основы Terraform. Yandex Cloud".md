@@ -41,6 +41,7 @@ preemptible = true - прерываемая ВМ, значительно деш�
 
 <img width="1842" height="1062" alt="image" src="https://github.com/user-attachments/assets/c29ee8bb-7cc9-4657-a844-66594e8c6c95" />
 
-
+Работа звершена.
+Спасибо а проверку. 
 
 
