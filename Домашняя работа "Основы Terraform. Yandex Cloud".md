@@ -1,4 +1,4 @@
-Ссылка на github репозиторий: 
+Ссылка на github репозиторий: https://github.com/VTB55/ter-homeworks
 
 # Задание 1. 
 Cкриншот ЛК Yandex Cloud с созданной ВМ, где видно внешний ip-адрес:
