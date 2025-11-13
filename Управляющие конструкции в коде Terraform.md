@@ -1,6 +1,6 @@
 Управляющие конструкции в коде Terraform
 
-Ссылка на репозиторий: https://github.com/VTB55/ter-homeworks
+Ссылка на репозиторий: https://github.com/VTB55/ter-homeworks/tree/terraform-03
 
 # Задание 1:
 
@@ -17,7 +17,5 @@
 # Задание 4:
 
 <img width="1435" height="840" alt="image" src="https://github.com/user-attachments/assets/e782deb1-6741-41cc-be27-8c9c9922e992" />
-
-
 
 
